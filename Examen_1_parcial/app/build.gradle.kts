@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "online.clugo19.tarea_4_cesar"
+    namespace = "online.clugo19.examen_1_parcial"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "online.clugo19.tarea_4_cesar"
+        applicationId = "online.clugo19.examen_1_parcial"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
@@ -56,6 +56,4 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
-    implementation(libs.androidx.activity.compose.v180)
-    implementation(libs.androidx.material.icons.extended)
 }
